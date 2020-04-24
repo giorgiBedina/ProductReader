@@ -1,0 +1,107 @@
+body{
+	background-color: #f3f3f3;
+}
+
+.mass h1{
+	display:inline-block;
+	margin-left: 20px;
+}
+
+#apply{
+	display: inline-block;
+	float: right;
+	background-color: black;
+	color: white;
+	width: 100px;
+	height: 30px;
+	border: solid;
+	border-radius: 10px;
+	border-width: thick;
+	border-color: black
+}
+
+#apply:focus{
+	outline: none;
+}
+
+#delete{
+	display: inline-block;
+	margin: 5px;
+}
+
+#massCheck{
+	background-color: black;
+	color: white;
+	width: 120px;
+	height: 30px;
+	border: solid;
+	border-radius: 10px;
+	border-width: thick;
+	border-color: black;
+	margin-right:10px;
+}
+
+#massUnCheck{
+	background-color: black;
+	color: white;
+	width: 120px;
+	height: 30px;
+	border: solid;
+	border-radius: 10px;
+	border-width: thick;
+	border-color: black;
+	margin-right:10px;
+}
+
+#massDelete{
+	display: inline-block;
+	float: right;
+	margin-top: 25px;
+	margin-right: 20px;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    padding: 0;
+    background-color: black;
+}
+
+.content{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.box{
+	margin:20px;
+	border: solid;
+	border-radius: 10px;
+	border-width: thick;
+	width: 300px;
+	height: 250px;
+}
+
+.box p{
+	display: inline-block;
+	font-style: italic;
+	font-weight: bold;
+	text-align: center;
+}
+
+.box delete{
+}
+
+.info{
+	text-align:center;
+	width: 80%;
+	margin: auto;
+}
+
+.mass a{
+	text-decoration: none;
+	color: black;
+	margin-left: 10px;
+	font-style: italic;
+}

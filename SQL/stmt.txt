@@ -1,0 +1,37 @@
+//create database
+CREATE DATABASE products
+
+
+//create table for product
+CREATE TABLE product(
+id int(11) PRIMARY KEY AUTO_INCREMENT NOT NULL,
+sku tinytext NOT NULL,
+name tinytext NOT NULL,
+price tinytext NOT NULL,
+type tinytext NOT NULL
+)
+
+
+//create table for discs
+CREATE TABLE disc(
+id int(11) PRIMARY KEY AUTO_INCREMENT NOT NULL,
+productID int(11) NOT NULL,
+size tinytext NOT NULL
+)
+
+
+//create table for books
+CREATE TABLE book(
+id int(11) PRIMARY KEY AUTO_INCREMENT NOT NULL,
+productID int(11) NOT NULL,
+weight tinytext NOT NULL
+)
+
+//create table for furnitures
+CREATE TABLE furniture(
+id int(11) PRIMARY KEY AUTO_INCREMENT NOT NULL,
+productID int(11) NOT NULL,
+height tinytext NOT NULL,
+width tinytext NOT NULL,
+lenght tinytext NOT NULL
+)
